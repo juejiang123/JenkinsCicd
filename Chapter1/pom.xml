@@ -18,6 +18,14 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.12</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.1.0</version>
+            <scope>test</scope>
+        </dependency>
+
         <dependency>
             <groupId>org.robolectric</groupId>
             <artifactId>android-all</artifactId>
