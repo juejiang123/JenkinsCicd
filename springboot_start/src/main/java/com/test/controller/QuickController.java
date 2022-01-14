@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@ConfigurationProperties(prefix = "name")
+@ConfigurationProperties(prefix = "person")
 public class QuickController {
 
 //    @Value("${name}")
@@ -19,6 +19,13 @@ public class QuickController {
     public String quick2(){
 
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return "QuickController{" +
+                "name='" + name + '\'' +
+                '}';
     }
 
     public String getName() {

@@ -1,5 +1,10 @@
-name:
-  wangli
+person:
+  name:
+    wangli
 
-age:
-  18
+  age:
+    18
+
+
+server:
+  port: 8081
